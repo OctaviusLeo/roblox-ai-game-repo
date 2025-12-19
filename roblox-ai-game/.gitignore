@@ -1,0 +1,6 @@
+# Rojo / tooling
+*.lock
+.DS_Store
+
+# Secrets
+src/ServerScriptService/Config.lua
