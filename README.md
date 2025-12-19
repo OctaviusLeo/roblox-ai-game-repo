@@ -16,7 +16,7 @@ AI calls are made **server-side** via HttpService, with:
 - HTTP requests enabled in your experience (Game Settings -> Security -> **Allow HTTP Requests**)
 - An OpenAI API key
 
-## Quick start (Rojo workflow)
+## Quick start (Rojo workflow and for those new to Roblox Developing).
 1. Install Rojo (any method you prefer) and the Rojo Studio plugin.
 2. In Roblox Studio, create/open a place.
 3. From a terminal in this repo folder:
@@ -31,9 +31,9 @@ AI calls are made **server-side** via HttpService, with:
 Edit `MODEL` in `Config.lua`. Default is `gpt-5-mini`.
 
 ## Notes on secrets
-Never expose your API key to clients. Keep it in **ServerScriptService** and out of git.
+If you're going to re-create this game on ROBLOX, never expose your API key to clients. Keep it in **ServerScriptService** and out of git.
 This repo ignores `Config.lua` via `.gitignore`.
 
 ## Troubleshooting
-- If you see HTTP errors: confirm **Allow HTTP Requests** is enabled and the server can reach `api.openai.com`.
-- If you get blank responses: check output logs for HTTP status/body.
+- HTTP errors: confirm **Allow HTTP Requests** is enabled and the server can reach `api.openai.com`.
+- Blank responses: check output logs for HTTP status/body.
