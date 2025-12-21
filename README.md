@@ -37,3 +37,9 @@ This repo ignores `Config.lua` via `.gitignore`.
 ## Troubleshooting
 - HTTP errors: confirm **Allow HTTP Requests** is enabled and the server can reach `api.openai.com`.
 - Blank responses: check output logs for HTTP status/body.
+
+## Future Feature
+This will later be turned into an actual game.
+It will have a system-like game-feature to allow equivalent exchange of items based on their coded value to gain something else.
+It will proceed as a usual RPG game like fighting monsters, bosses, quests, stats, and more.
+The main purpose isn't to create a game for players to beat, but to test the limits of AI in Roblox's game-engine. 
