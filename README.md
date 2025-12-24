@@ -7,6 +7,8 @@ AI calls are made **server-side** via HttpService, with:
 - Per-player **rate limiting**
 - Short per-player **conversation memory**
 
+Account: https://www.roblox.com/users/35190321/profile
+
 Demo:
 
 ## What you get in-game
