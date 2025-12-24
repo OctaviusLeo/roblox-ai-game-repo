@@ -7,6 +7,8 @@ AI calls are made **server-side** via HttpService, with:
 - Per-player **rate limiting**
 - Short per-player **conversation memory**
 
+Demo:
+
 ## What you get in-game
 - A simple on-screen chat UI (press **E** on the NPC prompt to open)
 - Player message -> server -> OpenAI -> filtered response -> UI
