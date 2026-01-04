@@ -467,8 +467,6 @@ This is a personal portfolio project, but feedback and suggestions are welcome! 
 
 <div align="center">
 
-**If you found this project interesting, please star this repository!**
-
 *Built with passion for AI and game development*
 
 </div> 
